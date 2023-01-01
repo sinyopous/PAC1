@@ -1,0 +1,255 @@
+* {
+  font-family: "UnifrakturMaguntia", cursive;
+  font-family: "Grenze Gotisch", cursive;
+  color: rgb(121, 121, 121);
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(230, 225, 220);
+}
+
+.topNavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+  height: 64px;
+  margin: auto;
+  background: #222222;
+}
+
+.casitaLogo {
+  margin: 20px;
+}
+
+.topNavBarList {
+  margin: 20px;
+  display: flex;
+  right: 24px;
+}
+.topNavBarLink {
+  list-style-type: none;
+  display: inline-block;
+  margin: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(209, 209, 209);
+}
+
+.headerBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1440px;
+  margin: auto;
+  height: 300px;
+  background-image: url("/images/navargren.png");
+  background-position: center;
+}
+
+.miPortafolioTitle {
+  color: rgb(235, 235, 235);
+  font-size: 40px;
+}
+
+.saludosBox {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 20px;
+  max-width: 1440px;
+  margin: auto;
+  outline: ;
+}
+
+.saludosTitle {
+  font-size: 40px;
+  margin: auto;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.freiFullbodyBox {
+  margin-right: 20px;
+  width: 400px;
+  height: 266px;
+  overflow: hidden;
+  border-radius: 10px;
+  flex-basis: 450px;
+  flex-shrink: 0;
+}
+
+.freiFullbody {
+  position: relative;
+  left: -150px;
+  top: -60px;
+  width: 700px;
+}
+
+.textContainerSaludos {
+  text-align: justify;
+  max-height: 500px;
+  margin-left: 20px;
+  flex-basis: 40%;
+  min-width: 350px;
+}
+
+.misProyectosTitle {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+.misProyectosBox {
+  display: flex;
+  flex-wrap: wrap;
+  left: 200px;
+  justify-content: center;
+  gap: 40px;
+}
+
+.projecteContainer {
+  box-sizing: border-box;
+  overflow: hidden;
+  width: 340px;
+  height: 451.97px;
+  border: 1px solid #000000;
+  filter: drop-shadow(0px 0px 8px #222222);
+  border-radius: 20px;
+  background-color: rgb(230, 225, 220);
+}
+
+.projecteImageBox {
+  position: absolute;
+  overflow: hidden;
+  width: 340px;
+  height: 200px;
+  top: 0;
+}
+
+.projecteContainerText {
+  position: absolute;
+  left: 25px;
+  right: 25px;
+  top: 200px;
+  filter: none;
+}
+
+.projecteButton {
+  position: absolute;
+  width: 240px;
+  height: 46px;
+  bottom: 20px;
+  left: 50px;
+  background: #222222;
+  border-radius: 6px;
+}
+
+#imagePolimorf {
+  position: absolute;
+  top: -50px;
+  left: px;
+  width: 350px;
+}
+
+#imagePotion {
+  position: absolute;
+  width: 350px;
+  top: -20px;
+}
+
+#imageCube {
+  position: absolute;
+  width: 350px;
+  top: -90px;
+}
+
+.titleExperiencia {
+  text-align: center;
+  margin-top: 80px;
+  font-size: 40px;
+  margin-bottom: -20px;
+}
+.boxExperiencia {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  left: 100px;
+}
+
+.imageDonut {
+  align-self: center;
+  width: 348px;
+}
+
+.boxDonut {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+  margin: 50px;
+  left: 100px;
+  background-image: url("/images/graficodonut.png");
+  background-size: contain;
+}
+
+.textBoxDonut {
+  align-self: center;
+  text-align: center;
+  font-size: 20px;
+  width: 350px;
+}
+
+.titleMisAficiones {
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.flexContainerMisAficiones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px;
+  justify-content: center;
+  max-width: 1440px;
+  margin: auto;
+}
+.imageIconMisAficiones {
+  width: 40px;
+}
+
+.flexContentMisAficiones {
+  width: 342px;
+  height: 96px;
+  background-color: rgb(221, 213, 205);
+  display: flex;
+  align-items: center;
+  gap: 93px;
+  border-radius: 6px;
+  padding: 24px;
+}
+
+.flexContainerFooter {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  height: 128px;
+  background-color: rgb(221, 213, 205);
+}
+
+.iconsSocialMedia {
+  width: 36px;
+}
