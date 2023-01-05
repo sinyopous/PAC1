@@ -55,9 +55,9 @@ html {
 @media screen and (max-width: 900px) {
   .gridBox {
     grid-template-areas:
-      "datos" 
+      "datos"
       "estudios"
-      "idiomas" 
+      "idiomas"
       "experiencia";
     padding-top: 0px;
     padding-left: 30px;
@@ -76,13 +76,10 @@ html {
   /*add footer*/
 }
 
-
-
 body {
   background-color: rgb(230, 225, 220);
+  margin: 0;
 }
-
-
 
 * {
   color: rgb(173, 173, 173);
@@ -161,7 +158,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  top: 0;
+  top: 0px;
   background-color: rgb(230, 225, 220);
   border-bottom: 1px solid rgb(187, 187, 187);
   max-width: 1440px;
@@ -216,7 +213,7 @@ a {
     border-right: none;
     padding-right: 10px;
   }
-  
+
   .datosPersonales {
     border-bottom: solid 1px rgb(153, 153, 153);
     padding-bottom: 10px;
@@ -230,10 +227,7 @@ a {
   .gridBox {
     padding-left: 0px;
   }
-  
 }
-
-
 
 thead {
   border-right: solid 1px rgb(150, 150, 150);
@@ -250,13 +244,11 @@ td.x {
 }
 
 .rightDiv {
- 
   margin: 0 auto;
   display: inline-flex;
 }
 
 .mainDiv {
-  
   height: 500px;
   width: 500px;
   left: 600px;
@@ -300,12 +292,12 @@ td.x {
 }
 
 .magoConjuradorAlign {
- margin: 0;
- margin-top: -25px;
+  margin: 0;
+  margin-top: -25px;
 }
 
 .flexContainerFooter {
-  margin: -8px;
+  margin: auto;
   margin-top: 50px;
   display: flex;
   justify-content: center;
@@ -317,4 +309,8 @@ td.x {
 
 .iconsSocialMedia {
   width: 36px;
+}
+
+h1 {
+  color: rgb(143, 137, 131);
 }

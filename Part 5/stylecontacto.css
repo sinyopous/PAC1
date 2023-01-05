@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  margin: ;
+  margin: 0;
   background-color: rgb(230, 225, 220);
   /*grid-template-areas:
     "one"
@@ -59,7 +59,7 @@ body {
   background-color : rgb(230, 225, 220);
   border-bottom: 1px solid rgb(187, 187, 187);
   max-width: 1440px;
-  margin: auto -8px;
+  margin: auto;
   height: 40px;
 }
 
@@ -108,7 +108,7 @@ a:hover {
   background-origin: content-box;
   background-repeat: no-repeat;
   max-width: 1440px;
-  margin: -8px;
+  margin: auto;
 }
 
 @media screen and (max-width: 992px) {
@@ -177,7 +177,7 @@ a:hover {
 
 
 .flexContainerFooter {
-  margin: -8px;
+  margin: auto;
   margin-top: 50px;
   display: flex;
   justify-content: center;
