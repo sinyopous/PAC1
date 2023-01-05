@@ -21,7 +21,7 @@ body {
   max-width: 1440px;
   height: 64px;
   margin: auto;
-  background: #222222;
+  background: #10101d;
 }
 
 .casitaLogo {
@@ -202,6 +202,7 @@ a {
   left: 100px;
   background-image: url("/images/graficodonut.png");
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .textBoxDonut {

@@ -1,0 +1,320 @@
+@font-face {
+  font-family: Chomsky;
+  src: url(fonts\Chomsky.otf);
+}
+
+@font-face {
+  font-family: The Wild Breath of Zelda;
+  src: url(fonts\The Wild Breath of Zelda.otf);
+}
+
+@font-face {
+  font-family: CelticGaramond;
+  src: url(fonts\Celtice.TTF);
+}
+
+* {
+  font-family: "UnifrakturMaguntia", cursive;
+  font-family: "Grenze Gotisch", cursive;
+  color: rgb(121, 121, 121);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.sectionDatosPersonales {
+  grid-area: datos;
+}
+
+.sectionEstudios {
+  grid-area: estudios;
+}
+
+.sectionIdiomas {
+  grid-area: idiomas;
+}
+
+.sectionExperienciaLaboral {
+  grid-area: experiencia;
+}
+
+.gridBox {
+  padding-top: 40px;
+  gap: 30px;
+  max-width: fit-content;
+  margin: auto;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  grid-template-areas:
+    "datos estudios"
+    "idiomas experiencia";
+}
+
+@media screen and (max-width: 900px) {
+  .gridBox {
+    grid-template-areas:
+      "datos" 
+      "estudios"
+      "idiomas" 
+      "experiencia";
+    padding-top: 0px;
+    padding-left: 30px;
+  }
+
+  .borderBottom {
+    border-bottom: 1px solid rgb(187, 187, 187);
+  }
+
+  .bottomDiv {
+    max-width: 550px;
+    margin: 5%;
+  }
+
+  /*nabbar flexdirection */
+  /*add footer*/
+}
+
+
+
+body {
+  background-color: rgb(230, 225, 220);
+}
+
+
+
+* {
+  color: rgb(173, 173, 173);
+  list-style-type: none;
+}
+
+strong {
+  color: rgb(150, 150, 150);
+}
+
+h1 {
+  font-family: ;
+  color: rgb(121, 121, 121);
+  font-size: 40px;
+}
+
+h2 {
+  color: rgb(128, 128, 128);
+}
+
+h3 {
+  color: rgb(158, 158, 158);
+}
+
+.mainNavBarLinks {
+  border-right: solid 1px rgb(150, 150, 150);
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+.mainRighterNavBarLink {
+  padding-right: 8px;
+  padding-left: 8px;
+  border-right: none;
+}
+
+/*.centered {
+    margin: 0 auto;
+    width: 90%;
+}*/
+
+.centeredText {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(182, 176, 171);
+}
+
+.boxMainMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  gap: 5px;
+}
+
+.roundportrait {
+  border-radius: 50%;
+  border: 2px rgba(161, 161, 161, 0);
+  height: 200px;
+}
+
+.mainTitle {
+  border-bottom: solid 3px rgb(163, 163, 163);
+  border-radius: 6px;
+  border-top: solid 1px rgb(153, 153, 153);
+  min-width: 320px;
+  width: 40%;
+  margin-top: 5px;
+}
+
+.mainNavBar {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  top: 0;
+  background-color: rgb(230, 225, 220);
+  border-bottom: 1px solid rgb(187, 187, 187);
+  max-width: 1440px;
+  margin: auto;
+  height: 40px;
+}
+
+.mainFlexBoxNavBar {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.relleno {
+  color: rgb(179, 179, 179);
+  font-size: small;
+  border-top: 1px solid rgb(206, 206, 206);
+  padding-top: 5px;
+  margin-top: 30px;
+  max-width: 70%;
+}
+
+.flexNavBarDos {
+  display: flex;
+  gap: 10px;
+}
+
+.navBarDos {
+  margin: auto;
+  margin-top: -20px;
+  padding-right: 17px;
+}
+
+.navBarDosLinks {
+  border-right: solid 1px rgb(153, 153, 153);
+  padding-right: 10px;
+}
+
+.righterNavBarDosLink {
+  border: none;
+}
+
+@media screen and (max-width: 450px) {
+  .flexNavBarDos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 40px;
+    margin-top: 30px;
+  }
+
+  .navBarDosLinks {
+    border-right: none;
+    padding-right: 10px;
+  }
+  
+  .datosPersonales {
+    border-bottom: solid 1px rgb(153, 153, 153);
+    padding-bottom: 10px;
+  }
+
+  .idiomas {
+    border-bottom: solid 1px rgb(153, 153, 153);
+    padding-bottom: 10px;
+  }
+
+  .gridBox {
+    padding-left: 0px;
+  }
+  
+}
+
+
+
+thead {
+  border-right: solid 1px rgb(150, 150, 150);
+}
+
+td.x {
+  text-align: center;
+}
+
+.leftDiv {
+  margin: auto;
+  display: inline-flex;
+  /*border-right: 1px solid rgb(194, 194, 194);*/
+}
+
+.rightDiv {
+ 
+  margin: 0 auto;
+  display: inline-flex;
+}
+
+.mainDiv {
+  
+  height: 500px;
+  width: 500px;
+  left: 600px;
+  right: 200px;
+}
+
+.bottomDiv {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: auto;
+  text-align: justify;
+}
+
+.liDatosPersonales {
+  position: relative;
+  z-index: -5;
+  left: -33px;
+  top: -15px;
+}
+
+.liEstudios {
+  position: relative;
+  z-index: -5;
+  left: -33px;
+  top: -15px;
+}
+
+.tablaIdiomas {
+  position: relative;
+  z-index: -5;
+  top: -15px;
+}
+
+.liExperienciaLaboral {
+  position: relative;
+  z-index: -5;
+  left: -33px;
+  top: -15px;
+}
+
+.magoConjuradorAlign {
+ margin: 0;
+ margin-top: -25px;
+}
+
+.flexContainerFooter {
+  margin: -8px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  height: 128px;
+  background-color: rgb(221, 213, 205);
+}
+
+.iconsSocialMedia {
+  width: 36px;
+}

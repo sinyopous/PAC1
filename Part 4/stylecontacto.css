@@ -1,0 +1,65 @@
+* {
+    font-family: "UnifrakturMaguntia", cursive;
+    font-family: "Grenze Gotisch", cursive;
+    color: rgb(121, 121, 121);
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: rgb(230, 225, 220);
+  }
+  
+  .topNavBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    height: 64px;
+    margin: auto;
+    background: #10101d;
+  }
+  
+  .casitaLogo {
+    margin: 20px;
+  }
+  
+  .topNavBarList {
+    margin: 20px;
+    display: flex;
+    right: 24px;
+  }
+  .topNavBarLink {
+    list-style-type: none;
+    display: inline-block;
+    margin: 5px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: rgb(209, 209, 209);
+  }
+
+
+
+
+
+
+
+  .flexContainerFooter {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    height: 128px;
+    background-color: rgb(221, 213, 205);
+  }
+  
+  .iconsSocialMedia {
+    width: 36px;
+  }

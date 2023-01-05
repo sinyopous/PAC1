@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="stylecontacto.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Germania+One&family=Grenze+Gotisch:wght@100;200;300;400;500;600;700;800;900&family=Medula+One&family=Pirata+One&family=UnifrakturMaguntia&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="headerBox">
+      <nav class="mainNavBar">
+        <ul class="mainFlexBoxNavBar">
+          <li class="mainNavBarLinks"><a href="index.html">Inicio</a></li>
+          <li class="mainNavBarLinks"><a href="cv.html">CV</a></li>
+          <li class="mainRighterNavBarLink"><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <!--<nav class="topNavBar">
+        <img class="casitaLogo" src="images\casita.svg" alt="" />
+        <ul class="topNavBarList">
+          <li class="topNavBarLink"><a href="index.html">Inicio</a></li>
+          <li class="topNavBarLink"><a href="cv.html">CV</a></li>
+          <li class="topNavBarLink"><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav> -->
+    </header>
+    <h1 class="flexBoxBannerContacto">Contacto</h1>
+    <section class="formBox">
+      <h2 class="titleCuentame">Cuentame, que necesitas de mi?</h2>
+      <form class="formContacto">
+        <label for="nombre">Nombre</label>
+        <input
+          class="formContactoInputs"
+          type="text"
+          id="nombre"
+          value="Escribe tu nombre"
+        />
+        <label for="email">Correo electronico</label>
+        <input
+          class="formContactoInputs"
+          type="text"
+          id="email"
+          value="Escribe tu correo"
+        />
+        <label for="comentarios">Comentarios</label>
+        <textarea
+          class="formContactoInputs"
+          name="Comentarios"
+          id="comentarios"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <div class="inputCheckboxPoliticas">
+          <input class="formContactoInputs" type="checkbox" id="politicas" />
+          <label class="politicas" for="politicas"
+            >He leido y acepto la <a href="">politica de privacidad</a></label
+          >
+        </div>
+        <input
+          class="formContactoInputs submitButton"
+          type="submit"
+          value="Submit"
+        />
+      </form>
+    </section>
+    <footer class="flexContainerFooter">
+      <a href="">
+        <img class="iconsSocialMedia" src="images\barbaro.svg" alt="barbaro" />
+      </a>
+      <a href="">
+        <img class="iconsSocialMedia" src="images\bardo.svg" alt="bardo" />
+      </a>
+      <a href="">
+        <img class="iconsSocialMedia" src="images\mago.svg" alt="mago" />
+      </a>
+    </footer>
+  </body>
+</html>

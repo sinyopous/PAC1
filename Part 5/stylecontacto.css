@@ -1,0 +1,192 @@
+* {
+  font-family: "UnifrakturMaguntia", cursive;
+  font-family: "Grenze Gotisch", cursive;
+  color: rgb(121, 121, 121);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: ;
+  background-color: rgb(230, 225, 220);
+  /*grid-template-areas:
+    "one"
+    "two"
+    "three"
+    "four"
+    "five"
+    "sis"
+    "set"
+    "vuit"
+    "nou";*/
+}
+
+/*.topNavBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1440px;
+  height: 64px;
+  margin: auto;
+  background: #10101d;
+}
+
+.casitaLogo {
+  margin: 20px;
+}
+
+.topNavBarList {
+  margin: 20px;
+  display: flex;
+  right: 24px;
+}
+.topNavBarLink {
+  list-style-type: none;
+  display: inline-block;
+  margin: 5px;
+}*/
+
+.headerBox {
+  position: sticky;
+  top: 0px;
+}
+.mainNavBar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color : rgb(230, 225, 220);
+  border-bottom: 1px solid rgb(187, 187, 187);
+  max-width: 1440px;
+  margin: auto -8px;
+  height: 40px;
+}
+
+.mainFlexBoxNavBar {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.mainNavBarLinks {
+  border-right: solid 1px rgb(150, 150, 150);
+  padding-right: 8px;
+  padding-left: 8px;
+}
+
+.mainRighterNavBarLink {
+  padding-right: 8px;
+  padding-left: 8px;
+  border-right: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(189, 185, 180);
+}
+
+li {
+  list-style-type: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(87, 84, 79);
+}
+
+.flexBoxBannerContacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  color: rgb(32, 32, 32);
+  height: 300px;
+  background-image: url('./images/litserthyllBig.jpg');
+  background-size: 110%;
+  background-position: -10px -20px;
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  max-width: 1440px;
+  margin: -8px;
+}
+
+@media screen and (max-width: 992px) {
+  .flexBoxBannerContacto {
+    background-image: url('./images/litserthyllMid.jpg');
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .flexBoxBannerContacto {
+    background-image: url('./images/litserthyllSmall.jpg');
+  }
+}
+
+.titleCuentame {
+  display: flex;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.formBox {
+  margin: 8px;
+}
+
+.formContacto {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  justify-content: center;
+  margin: auto;
+  background-color: rgb(230, 225, 220);
+}
+
+.formContactoInputs {
+  background-color: rgb(230, 225, 220);
+  padding: 5px 10px;
+  color: rgb(192, 185, 177);
+  border: 2px solid rgb(207, 199, 191);
+  border-radius: 5px;
+}
+
+.submitButton {
+  max-width: fit-content;
+  margin:auto;
+
+}
+
+.submitButton:hover {
+  filter: drop-shadow(0px 0px 3px #857969);
+  color: #967a5e;
+}
+
+.submitButton:active {
+  filter: drop-shadow(0px 0px 0px #857969);
+  color: #4e3e2e;
+  background-color: rgb(221, 213, 205);
+}
+
+.inputCheckboxPoliticas {
+  display: flex;
+  gap: 5px;
+}
+
+
+
+.flexContainerFooter {
+  margin: -8px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  height: 128px;
+  background-color: rgb(221, 213, 205);
+}
+
+.iconsSocialMedia {
+  width: 36px;
+}
