@@ -159,15 +159,9 @@ a {
   background-color: rgb(230, 225, 220);
 }
 
-@media screen and (max-width: 360px) {
-  .projecteContainer {
-   
-  }
-}
-
 .projecteContainerFlex {
   display: grid;
-  grid-template-rows: 40% 40% 20%;
+  grid-template-rows: 45% 35% 20%;
   overflow: hidden;
   width: 340px;
   height: 451.97px;
@@ -183,12 +177,19 @@ a {
   grid-row-end: 2;
   grid-column-start: 1;
   grid-column-end: 2;
-  overflow: hidden;
 }
 
-/*FIX THE IMAGE SIZE*/
+/*POTION POSITION*/
+#imagePotionDos {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 #imageCubeDos {
-  object-fit: scale-down;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .projecteContainerTextFlex {
