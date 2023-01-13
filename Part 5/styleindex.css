@@ -53,10 +53,6 @@ a {
   color: rgb(182, 176, 171);
 }
 
-.headerBigBox {
- 
-}
-
 .headerBox {
   display: flex;
   align-items: center;
@@ -64,7 +60,8 @@ a {
   max-width: 1440px;
   margin: auto;
   height: 300px;
-  background-image: url("/images/navargren.png");
+  /* background-image: url("/images/navargren.png");  no està carregant bé la imatge (window)*/
+  background-image: url("./images/navargren.png");
   background-position: center;
 }
 
@@ -279,7 +276,7 @@ a {
   width: 350px;
   height: 350px;
   overflow: hidden;
-  background-image: url("/images/graficodonut.png");
+  background-image: url("./images/graficodonut.png");
   background-size: contain;
   background-repeat: no-repeat;
 }
